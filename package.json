@@ -1,0 +1,13 @@
+{
+  "name": "node-socket-chat",
+  "version": "1.0.0",
+  "description": "A simple Node.js TCP socket chat application",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": ">=14"
+  }
+}

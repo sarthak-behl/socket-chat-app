@@ -1,6 +1,6 @@
 const net = require('net');
 
-const PORT = 3000; // You can change this port if needed
+const PORT = process.env.PORT || 3000; // Default port if not set in environment
 
 let clients = [];
 let userCount = 1;
